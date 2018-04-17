@@ -1,0 +1,86 @@
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/denisschule\/projects\/fswd40-css-day4\/gallery\/css\/style\.sass}line{font-family:\000033}}
+* {
+  font-family: "Lobster", cursive;
+  margin: 0;
+  padding: 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/denisschule\/projects\/fswd40-css-day4\/gallery\/css\/style\.sass}line{font-family:\000037}}
+a {
+  text-decoration: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/denisschule\/projects\/fswd40-css-day4\/gallery\/css\/style\.sass}line{font-family:\000039}}
+header {
+  text-align: center;
+  background-color: #138971;
+  -webkit-box-shadow: 10px 10px 5px grey;
+          box-shadow: 10px 10px 5px grey; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/denisschule\/projects\/fswd40-css-day4\/gallery\/css\/style\.sass}line{font-family:\0000313}}
+h1 {
+  color: white;
+  font-size: 4em;
+  line-height: 2em; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/denisschule\/projects\/fswd40-css-day4\/gallery\/css\/style\.sass}line{font-family:\0000317}}
+.content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-bottom: 30px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/denisschule\/projects\/fswd40-css-day4\/gallery\/css\/style\.sass}line{font-family:\0000323}}
+figure {
+  width: 450px;
+  height: 450px;
+  margin: 20px;
+  background-color: green;
+  text-align: center;
+  -webkit-box-shadow: 10px 10px 5px grey;
+          box-shadow: 10px 10px 5px grey;
+  border: 0px solid #89132b;
+  -webkit-transition: -webkit-transform 0.5s;
+  transition: -webkit-transform 0.5s;
+  transition: transform 0.5s;
+  transition: transform 0.5s, -webkit-transform 0.5s;
+  -webkit-transition: border-width 0.1s;
+  transition: border-width 0.1s;
+  -webkit-transition: color 0.1s;
+  transition: color 0.1s;
+  -webkit-transition: font-weight 0.1s;
+  transition: font-weight 0.1s; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/denisschule\/projects\/fswd40-css-day4\/gallery\/css\/style\.sass}line{font-family:\0000336}}
+  figure img {
+    width: 450px;
+    max-width: 100%;
+    height: 400px;
+    z-index: 1; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/denisschule\/projects\/fswd40-css-day4\/gallery\/css\/style\.sass}line{font-family:\0000341}}
+  figure figcaption {
+    height: 37px;
+    margin-top: -6px;
+    background-color: #b8dbd4;
+    padding-top: 15px;
+    font-size: 1.5em; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/denisschule\/projects\/fswd40-css-day4\/gallery\/css\/style\.sass}line{font-family:\0000348}}
+figure:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  border-width: 10px;
+  color: #89132b;
+  font-weight: bold; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/denisschule\/projects\/fswd40-css-day4\/gallery\/css\/style\.sass}line{font-family:\0000354}}
+footer {
+  height: 80px;
+  font-size: 1.5em;
+  padding-top: 30px;
+  text-align: center;
+  background-color: #138971; }
+
+/*# sourceMappingURL=style.css.map */
